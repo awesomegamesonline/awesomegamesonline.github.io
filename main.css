@@ -1,0 +1,37 @@
+body {
+  background-color: #FFCC99;
+  color: #006600;
+  font-size: 17px;
+}
+li {
+  margin-left: 10px;
+  list-style-type: none;
+}
+a {
+  color: green;
+}
+a:hover {
+  color: #00CC00;
+}
+a:active {
+  color: #00CC33;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav {
+  background-color: rgb(222, 31, 66);
+}
+nav > ul > li{
+  display: inline-block;
+  padding: 20px;
+}
+nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+nav > ul > li:hover {
+  background-color: rgb(180, 31, 66);
+}
